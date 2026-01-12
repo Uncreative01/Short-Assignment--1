@@ -3,6 +3,13 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+    font-family: 'MyCustomFont';   /* Name you will use in CSS */
+    src: url('PopJoy.otf') format('truetype'); /* Path to font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
 li {
     margin-bottom: 1rem;
 }
@@ -12,6 +19,7 @@ body {
     flex-direction: column;
     background-color: #121212;
     color: #e0e0e0;
+    font-family: 'MyCustomFont', Arial, sans-serif;
 }
 
 
